@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white",
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/tabbar/orders/orders",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/tabbar/me/me",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	 "tabBar": {
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+	    "list": [
+	      {
+	        "pagePath": "pages/tabbar/index/index",
+	        "iconPath": "static/navbar-home-unclick.png",
+	        "selectedIconPath": "static/navbar-home-clicked.png" 
+	      },
+	      {
+	        "pagePath": "pages/tabbar/orders/orders",
+	        "iconPath": "static/navbar-order.png",
+	        "selectedIconPath": "static/navbar-order-click.png" 
+	      },
+	      {
+	        "pagePath": "pages/tabbar/me/me",
+	        "iconPath": "static/navbar-me.png",
+	        "selectedIconPath": "static/navbar-me-click.png" 
+	      }
+	    ]
+	  }
+}

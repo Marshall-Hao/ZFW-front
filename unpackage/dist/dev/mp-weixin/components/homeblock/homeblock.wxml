@@ -1,0 +1,1 @@
+<view class="homeblock"><profileblock vue-id="eb200538-1" bind:__l="__l"></profileblock><view class="resblock"><mapbutton bind:showmap="__e" vue-id="eb200538-2" data-event-opts="{{[['^showmap',[['showmap']]]]}}" bind:__l="__l"></mapbutton><resrecommend vue-id="eb200538-3" bind:__l="__l"></resrecommend><reslists vue-id="eb200538-4" bind:__l="__l"></reslists></view></view>

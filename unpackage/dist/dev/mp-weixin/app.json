@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/orders/orders",
+    "pages/tabbar/me/me"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "static/navbar-home-unclick.png",
+        "selectedIconPath": "static/navbar-home-clicked.png"
+      },
+      {
+        "pagePath": "pages/tabbar/orders/orders",
+        "iconPath": "static/navbar-order.png",
+        "selectedIconPath": "static/navbar-order-click.png"
+      },
+      {
+        "pagePath": "pages/tabbar/me/me",
+        "iconPath": "static/navbar-me.png",
+        "selectedIconPath": "static/navbar-me-click.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

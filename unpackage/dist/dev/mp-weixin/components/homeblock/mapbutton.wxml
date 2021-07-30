@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['showmap',['$event']]]]]}}" class="mapbutton" bindtap="__e"></view>

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "profileblock": "/components/homeblock/profileblock",
+    "mapbutton": "/components/homeblock/mapbutton",
+    "resrecommend": "/components/homeblock/resrecommend",
+    "reslists": "/components/homeblock/reslists"
+  }
+}

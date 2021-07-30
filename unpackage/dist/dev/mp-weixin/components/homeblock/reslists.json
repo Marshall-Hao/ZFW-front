@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "myaddress": "/components/homeblock/myaddress",
+    "allres": "/components/homeblock/allres"
+  }
+}

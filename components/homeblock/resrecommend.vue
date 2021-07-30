@@ -1,0 +1,18 @@
+<template>
+	<view class="resrecommend">
+		
+	</view>
+</template>
+
+<script>
+</script>
+
+<style>
+	.resrecommend {
+		margin-top: 20px;
+		height: 90px;
+		width: 100%;
+		border-radius: 8px;
+		background-color: #FFFFFF;
+	}
+</style>
